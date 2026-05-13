@@ -1,5 +1,6 @@
-import Banner from "@/components/Banner/Banner";
-import WhyChose from "@/components/WhyChoose/WhyChose";
+import Banner from "@/components/shared/Banner/Banner";
+import FeatureMedicine from "@/components/shared/FeatureMedicine";
+import WhyChose from "@/components/shared/WhyChoose/WhyChose";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div>
         <Banner></Banner>
         <WhyChose></WhyChose>
+        <FeatureMedicine></FeatureMedicine>
       </div>
     </div>
   );
