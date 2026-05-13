@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import WhyChose from "@/components/WhyChoose/WhyChose";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       </div>
       <div>
         <Banner></Banner>
+        <WhyChose></WhyChose>
       </div>
     </div>
   );
