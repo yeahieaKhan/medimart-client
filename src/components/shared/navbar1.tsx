@@ -3,6 +3,9 @@
 import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
 
 import {
+
+
+  
   Accordion,
   AccordionContent,
   AccordionItem,
@@ -64,15 +67,15 @@ const Navbar1 = ({
     title: "Medi-Mart",
   },
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Home", url: "/" },
 
     {
       title: "Shop",
-      url: "#",
+      url: "/shop",
     },
     {
       title: "About",
-      url: "#",
+      url: "/about",
     },
   ],
   auth = {
